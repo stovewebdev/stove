@@ -1,8 +1,29 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
-a {
-  color: #00B7FF;
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.frame {
+	width: 100vw;
+	height: 100vh;
+}
+
+#mainpage {
+	background: url('../images/Wallpaper/Welcome Page.jpg') no-repeat center;
+	background-size: cover;
+	padding: 10px;
+}
+
+#logo {
+	position: relative;
+	float: right;
+	width: 10vw;
+	height: 5vh;
 }
