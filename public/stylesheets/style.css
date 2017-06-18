@@ -16,9 +16,17 @@ body {
 }
 
 #mainpage {
-	background: url('../images/Wallpaper/Welcome Page.jpg') no-repeat center;
+	background: url('../images/Wallpaper/Welcome Page2.jpg') no-repeat center;
 	background-size: cover;
 	padding: 10px;
+}
+
+#filter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	opacity: .9;
 }
 
 #logo {
