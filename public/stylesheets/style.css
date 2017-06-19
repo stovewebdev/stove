@@ -1,3 +1,14 @@
+/* === Start Froce Landscape ===*/
+#warningMessage { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warningMessage { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warningMessage { display:none; }
+    }
+/* === End Froce Landscape ===*/
+
 html {
 	padding: 0;
 	margin: 0;
@@ -10,9 +21,26 @@ body {
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+#center {
+	text-align: center;	
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .frame {
 	width: 100vw;
 	height: 100vh;
+}
+
+/* ==== Start background === */
+#background {
+	position: absolute;
+	z-index: -1;
 }
 
 #backgroundWelcome {
@@ -27,6 +55,32 @@ body {
 	background-color: #000000;
 	position: absolute;
 	opacity: .8;
+}
+/* ==== End background === */
+
+
+/* ==== Start warning message === */
+#warningMessage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	opacity: 0.95;
+	z-index: 2;
+	color: #FFFFFF;
+}
+
+#warningMessage div {
+	width: 100vw;
+	height: 100vh;
+}
+/* ==== End warning message === */
+
+
+/* ==== Start main page === */
+#wrapper {
+	position: absolute;
+	z-index: 1;
 }
 
 #mainPage {
@@ -90,3 +144,4 @@ body {
 #bigTitle {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/* ==== End main page === */

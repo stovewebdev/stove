@@ -1,17 +1,24 @@
 extends layout
 
 block content
+  #background
+    #backgroundWelcome.frame
+    #filter.frame
 
-  #backgroundWelcome.frame
-  #filter.frame
-  .container#mainPage
-    #row
-      img(src='/images/Logo/logo2.svg')#logo
-    #row2
-      h1#bigTitle we are freelance
-        | &nbsp; 
-      h1#w w
-      h1#e e
-      h1#b b
-      | &nbsp;&nbsp;  
-      h1#bigTitle developer
+  #warningMessage.frame
+    #center.container
+      i.fa.fa-refresh.fa-5x.fa-spin#rotate
+      h2 Please turn your device
+
+  #wrapper 
+    .container#mainPage
+      #row
+        img(src='/images/Logo/logo2.svg')#logo
+      #row2
+        h1#bigTitle we are freelance
+          | &nbsp;
+        h1#w w
+        h1#e e
+        h1#b b
+        | &nbsp;&nbsp;  
+        h1#bigTitle developer
