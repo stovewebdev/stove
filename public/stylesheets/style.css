@@ -103,45 +103,85 @@ body {
 	height: 9vh;
 }
 
-#row2 {
-	padding-top: 10vh;
-	text-align: center;
-	color: #ffffff;
-	margin: auto;
-}
-
-#row2 h1 {
-	display: inline-block;
-	font-size: 50px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-#w {
-	border-radius: 100%;
-	background-color: #FC354C;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-}
-
-#e {
-	border-radius: 100%;
-	background-color: #B27B85;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-}
-
-#b {
-	border-radius: 100%;
-	background-color: #0ABFBC;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-}
-
 #bigTitle {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /* ==== End main page === */
+
+
+/* === Start phone === */
+@media only screen and (max-width: 768px) {
+    
+}
+/* === End phone === */
+
+
+/* === Start tablet === */
+@media only screen and (min-width: 768px) {
+    
+}
+/* === End tablet === */
+
+
+/* === Start desktop === */
+@media only screen and (min-width: 992px) {
+    
+	#row2 {
+		padding-top: 10vh;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+	}
+
+	#row2 h1 {
+		display: inline-block;
+		font-size: 50px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	#w {
+		border-radius: 100%;
+		background-color: #FC354C;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#e {
+		border-radius: 100%;
+		background-color: #B27B85;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#b {
+		border-radius: 100%;
+		background-color: #0ABFBC;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#row3 {
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	#menu {
+		width: 100px;
+		height: 100px;
+		margin: 30px;
+		border-radius: 100%;
+	}
+
+}
+/* === End desktop === */
+
+
+/* === Start large desktop === */
+@media only screen and (min-width: 1200px) {
+    
+}
+/* === End large desktop === */
