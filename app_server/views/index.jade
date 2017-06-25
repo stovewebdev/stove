@@ -11,9 +11,10 @@ block content
       h2 Please turn your device
 
   #wrapper 
-    .container#mainPage
+    .container
       #row
         img(src='/images/Logo/logo2.svg')#logo
+    .container#mainPage
       #row2
         h1#bigTitle we are freelance
           | &nbsp;
@@ -23,8 +24,11 @@ block content
         | &nbsp;&nbsp;  
         h1#bigTitle developer
       #row3
-        button#menu Service
-        button#menu Skill
-        button#menu Work
-        button#menu Contact
-        
+        object
+          embed(src='/images/Menus/serviceBtn.svg')#serviceBtn
+        object
+          embed(src='/images/Menus/skillBtn.svg')#skillBtn
+        object
+          embed(src='/images/Menus/workBtn.svg')#workBtn
+        object
+          embed(src='/images/Menus/contactBtn.svg')#contactBtn        
