@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="skill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+
 <defs>
 	<style>
-		#Layer_1:hover {
-			stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			-webkit-animation: dash 0.5s ease-in-out forwards;
-			-o-animation: dash 0.5s ease-in-out forwards;
-			-moz-animation: dash 0.5s ease-in-out forwards;
-			animation: dash 0.5s ease-in-out forwards;
-			stroke: url(#MyGradient);
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
 		@-webkit-keyframes dash {
 			from {
 				stroke-dashoffset: 1000;
@@ -26,6 +13,21 @@
 			to {
 				stroke-dashoffset: 0;
 			}
+		}
+
+		#skill {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			stroke: url(#MyGradient);
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
 		}
 	</style>
 	<defs>
@@ -36,6 +38,63 @@
   	</defs>
 </defs>
 
-<circle id="c1" style="fill:rgba(0, 0, 0, .5);stroke-width:5;stroke-miterlimit:10;" cx="150.448" cy="150.172" r="143.345"/>
-<text id="t1" transform="matrix(1 0 0 1 67.5986 166.7285)" style="fill:#FFFFFF;stroke:#000000;stroke-width:0;stroke-miterlimit:10; font-family:'Lucida Console', Monaco, monospace; font-size:55;">Skill</text>
+<g>
+	<circle id="c1" cx="150" cy="150" r="143.345"/>
+	<text id="t1" transform="matrix(1 0 0 1 91 226.7402)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Skill</text>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="135.296,88.458 122.279,103.265 
+				131.824,121.099 			"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="165.234,88.35 178.253,103.401 
+				168.707,121.531 			"/>
+			<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="155.446" cy="91.64" r="2.852"/>
+			<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="149.993" cy="105.124" r="2.852"/>
+			<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="144.135" cy="118.358" r="2.852"/>
+		</g>
+		<g>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="133.292" y1="159.219" x2="166.707" y2="159.219"/>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="139.733" y1="166.645" x2="160.267" y2="166.645"/>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="144.362" y1="174.071" x2="155.637" y2="174.071"/>
+		</g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M150,55.177
+			c-24.607,0-44.556,19.948-44.556,44.556c0,5.203,0.901,10.191,2.54,14.833c0.257,0.915,0.54,1.782,0.838,2.588
+			c3.434,9.284,21.297,34.719,21.297,34.719H150h19.881c0,0,17.863-25.435,21.295-34.719c0.3-0.806,0.582-1.673,0.839-2.588
+			c1.639-4.642,2.54-9.631,2.54-14.833C194.555,75.125,174.606,55.177,150,55.177z"/>
+		<g>
+			<g>
+				<g>
+					<path stroke="#FFFFFF" d="M94.659,102.241c2.2,0,4,1.247,4,2.77c0,1.523-1.8,2.77-4,2.77h-8.132c-2.2,0-4-1.247-4-2.77
+						c0-1.523,1.8-2.77,4-2.77H94.659z"/>
+				</g>
+				<g>
+					<path stroke="#FFFFFF" d="M213.473,102.241c2.2,0,4,1.247,4,2.77c0,1.523-1.8,2.77-4,2.77h-8.133c-2.2,0-4-1.247-4-2.77
+						c0-1.523,1.8-2.77,4-2.77H213.473z"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path stroke="#FFFFFF" d="M111.764,58.81c1.555,1.556,1.947,3.709,0.87,4.787c-1.077,1.077-3.231,0.685-4.787-0.871l-5.75-5.75
+						c-1.556-1.556-1.948-3.71-0.871-4.787s3.231-0.685,4.786,0.871L111.764,58.81z"/>
+				</g>
+				<g>
+					<path stroke="#FFFFFF" d="M188.236,58.81c-1.556,1.556-1.947,3.709-0.871,4.787c1.077,1.077,3.23,0.685,4.786-0.87l5.752-5.751
+						c1.556-1.555,1.947-3.709,0.87-4.786c-1.078-1.077-3.231-0.685-4.787,0.871L188.236,58.81z"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path stroke="#FFFFFF" d="M113.248,145.343c1.555-1.556,1.947-3.709,0.871-4.786s-3.23-0.685-4.786,0.87l-5.75,5.751
+						c-1.556,1.556-1.948,3.709-0.871,4.786s3.231,0.686,4.786-0.87L113.248,145.343z"/>
+				</g>
+				<g>
+					<path stroke="#FFFFFF" d="M186.751,145.343c-1.556-1.557-1.947-3.71-0.87-4.787c1.076-1.077,3.229-0.685,4.785,0.871l5.752,5.75
+						c1.556,1.556,1.947,3.709,0.869,4.786c-1.077,1.078-3.23,0.687-4.786-0.87L186.751,145.343z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

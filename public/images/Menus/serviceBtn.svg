@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="300px" height="300px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<svg version="1.1" id="service" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
 
 <defs>
 	<style>
-		#Layer_1:hover {
-			stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			-webkit-animation: dash 0.5s ease-in-out forwards;
-			-o-animation: dash 0.5s ease-in-out forwards;
-			-moz-animation: dash 0.5s ease-in-out forwards;
-			animation: dash 0.5s ease-in-out forwards;
-			stroke: url(#MyGradient);
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
 		@-webkit-keyframes dash {
 			from {
 				stroke-dashoffset: 1000;
@@ -27,6 +13,21 @@
 			to {
 				stroke-dashoffset: 0;
 			}
+		}
+
+		#service {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			stroke: url(#MyGradient);
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
 		}
 	</style>
 	<defs>
@@ -37,6 +38,33 @@
   	</defs>
 </defs>
 
-<circle id="c1" style="fill:rgba(0, 0, 0, .5);stroke-width:5;stroke-miterlimit:10;" cx="150.448" cy="150.172" r="143.345"/>
-<text id="t1" transform="matrix(1 0 0 1 33.7256 167.834)" style="fill:#FFFFFF;stroke:#000000;stroke-width:0;stroke-miterlimit:10; font-family:'Lucida Console', Monaco, monospace; font-size:55;">Service</text>
+<g>
+	<circle id="c1" cx="150" cy="150" r="143.346"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="137.493,155.331 162.507,155.331 
+		167.657,177.402 132.343,177.402 	"/>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="114.539" y1="178.218" x2="185.461" y2="178.218"/>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M216.949,144.376
+			c0,5.851-4.743,10.594-10.594,10.594H93.645c-5.851,0-10.594-4.743-10.594-10.594V61.094c0-5.851,4.744-10.594,10.594-10.594
+			h112.71c5.851,0,10.594,4.744,10.594,10.594V144.376z"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="83.051" y1="135.841" x2="216.949" y2="135.841"/>
+		
+			<ellipse fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="205.813" cy="58.74" rx="2.502" ry="2.354"/>
+		
+			<ellipse fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="194.483" cy="58.74" rx="2.501" ry="2.354"/>
+		
+			<ellipse fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="183.007" cy="58.74" rx="2.501" ry="2.354"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M173.528,129.313c0,0,5.326,1.761,5.887-6.621
+			l-30.182-32.681c0,0,4.531-6.171-3.354-16.064c-7.124-8.941-18.719-5.168-18.719-5.168l10.814,10.184l0.222,7.558l-7.924-0.712
+			l-10.795-9.765c0,0-5.728,9.08,3.631,17.322c9.36,8.242,16.345,4.051,16.345,4.051L173.528,129.313z"/>
+		<ellipse fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="173.396" cy="123.174" rx="2.23" ry="2.19"/>
+		<polygon fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="155.712,90.614 161.163,96.648 
+			164.167,96.648 166.392,96.648 185.789,76.061 176.216,66.378 157.275,83.938 156.278,87.757 		"/>
+		<polygon fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="141.768,106.759 145.889,110.644 
+			138.814,116.955 138.953,118.966 126.33,127.151 132.988,114.414 136.109,114.414 		"/>
+	</g>
+	<text id="t1_1_" transform="matrix(1 0 0 1 65.6445 227.041)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Service</text>
+</g>
 </svg>

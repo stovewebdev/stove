@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="work" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+
 <defs>
 	<style>
-		#Layer_1:hover {
-			stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			-webkit-animation: dash 0.5s ease-in-out forwards;
-			-o-animation: dash 0.5s ease-in-out forwards;
-			-moz-animation: dash 0.5s ease-in-out forwards;
-			animation: dash 0.5s ease-in-out forwards;
-			stroke: url(#MyGradient);
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
 		@-webkit-keyframes dash {
 			from {
 				stroke-dashoffset: 1000;
@@ -26,6 +13,21 @@
 			to {
 				stroke-dashoffset: 0;
 			}
+		}
+
+		#work {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			stroke: url(#MyGradient);
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
 		}
 	</style>
 	<defs>
@@ -36,6 +38,21 @@
   	</defs>
 </defs>
 
-<circle id="c1" style="fill:rgba(0, 0, 0, .5);stroke-width:5;stroke-miterlimit:10;" cx="150.448" cy="150.172" r="143.345"/>
-<text id="t1" transform="matrix(1 0 0 1 84.1689 166.7285)" style="fill:#FFFFFF;stroke:#000000;stroke-width:0;stroke-miterlimit:10; font-family:'Lucida Console', Monaco, monospace; font-size:55;">Work</text>
+<g>
+	<circle id="c1" cx="150" cy="150" r="143.345"/>
+	<g>
+		<g>
+			<path id="w1" stroke="#FFFFFF" d="M139.028,55.983c-2.75,0-5,2.25-5,5v10.445c0,2.75,0.719,5,1.597,5s1.597-2.25,1.597-5v-7.583
+				c0-2.75,2.25-5,5-5h15.556c2.75,0,5,2.25,5,5v7.583c0,2.75,0.719,5,1.597,5c0.879,0,1.598-2.25,1.598-5V60.983c0-2.75-2.25-5-5-5
+				H139.028z"/>
+		</g>
+		<g>
+			<path id="w2" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M213.892,153c0,4.95-4.05,9-9,9H95.108
+				c-4.95,0-9-4.05-9-9V84.107c0-4.95,4.05-9,9-9h109.783c4.95,0,9,4.05,9,9V153z"/>
+		</g>
+		<line id="w3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="111.665" y1="75.107" x2="111.665" y2="162"/>
+		<line id="w4" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="188.335" y1="75.107" x2="188.335" y2="162"/>
+	</g>
+	<text id="t1_1_" transform="matrix(1 0 0 1 101.7969 227.041)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Work</text>
+</g>
 </svg>
