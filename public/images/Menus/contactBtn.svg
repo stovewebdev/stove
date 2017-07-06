@@ -15,7 +15,7 @@
 			}
 		}
 
-		#contact {
+		#lingkaran {
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 2;
@@ -29,6 +29,78 @@
 			-webkit-transition: 200ms;
 			-webkit-transition-timing-function: ease-in-out;
 		}
+
+
+		#text {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
+		}
+
+		#mail {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
+		}
+
+		#lipatan_atas {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
+		}
+
+		#lipatan_kiri {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
+		}
+
+		#lipatan_kanan {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: dash 5s ease-in-out forwards;
+			transition: 200ms;
+			transition-timing-function: ease-in-out;
+			-webkit-transition: 200ms;
+			-webkit-transition-timing-function: ease-in-out;
+		}
+
 	</style>
 	<defs>
         <linearGradient id="MyGradient">
@@ -39,20 +111,20 @@
 </defs>
 
 <g>
-	<circle id="c1" cx="150" cy="150" r="143.345"/>
-	<text id="t1" transform="matrix(1 0 0 1 65.6445 227.041)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Contact</text>
+	<circle id="lingkaran" cx="150" cy="150" r="143.345"/>
+	<text id="text" transform="matrix(1 0 0 1 65.6445 227.041)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Contact</text>
 	<g>
 		<g>
-			<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M213.892,150.2c0,5.06-4.107,9.201-9.126,9.201
+			<path id="mail" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M213.892,150.2c0,5.06-4.107,9.201-9.126,9.201
 				H95.235c-5.02,0-9.126-4.142-9.126-9.201V85.786c0-5.061,4.106-9.203,9.126-9.203h109.531c5.019,0,9.126,4.142,9.126,9.203V150.2
 				z"/>
 		</g>
 		<g>
-			<path stroke="#FFFFFF" d="M189.436,91.016l-21.326,24.253c-9.959,11.33-26.259,11.33-36.218,0l-21.327-24.253h-8.018l28.391,32.289
+			<path id="lipatan_atas" stroke="#FFFFFF" d="M189.436,91.016l-21.326,24.253c-9.959,11.33-26.259,11.33-36.218,0l-21.327-24.253h-8.018l28.391,32.289
 				c10.485,11.923,27.642,11.923,38.125,0l28.392-32.289H189.436z"/>
 			<g>
-				<path stroke="#FFFFFF" d="M125.958,118.345l-23.412,26.625h8.018l21.327-24.254c0.759-0.862,1.566-1.639,2.393-2.37H125.958z"/>
-				<path stroke="#FFFFFF" d="M174.044,118.345h-8.327c0.828,0.731,1.634,1.508,2.393,2.37l21.326,24.254h8.019L174.044,118.345z"/>
+				<path id="lipatan_kiri" stroke="#FFFFFF" d="M125.958,118.345l-23.412,26.625h8.018l21.327-24.254c0.759-0.862,1.566-1.639,2.393-2.37H125.958z"/>
+				<path id="lipatan_kanan" stroke="#FFFFFF" d="M174.044,118.345h-8.327c0.828,0.731,1.634,1.508,2.393,2.37l21.326,24.254h8.019L174.044,118.345z"/>
 			</g>
 		</g>
 	</g>
