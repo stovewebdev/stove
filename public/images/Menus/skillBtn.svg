@@ -271,8 +271,8 @@
 	</style>
 	<defs>
         <linearGradient id="MyGradient">
-        	<stop offset="5%" stop-color="#FC354C" />
-         	<stop offset="95%" stop-color="#0ABFBC" />
+        	<stop offset="5%" stop-color="#FFEB3B" />
+         	<stop offset="95%" stop-color="#FF5722" />
         </linearGradient>
   	</defs>
 </defs>
