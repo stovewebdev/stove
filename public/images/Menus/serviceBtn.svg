@@ -39,16 +39,13 @@
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
 			animation: leher 7s ease-out;
-			stroke: #FFFFFF;
 		}
 
 		@-webkit-keyframes leher {
 			from {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 1000;
 			}
 			to {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -61,7 +58,6 @@
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
 			animation: alas 7s ease-out;
-			stroke: #FFFFFF;
 		}
 
 		@-webkit-keyframes alas {
@@ -74,7 +70,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -88,7 +83,7 @@
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
 			animation: layar 4s ease-out;
-			stroke: #FFFFFF;
+			stroke: #673AB7;
 		}
 
 		@-webkit-keyframes layar {
@@ -101,7 +96,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -126,7 +120,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -151,7 +144,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -176,7 +168,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -201,7 +192,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -226,7 +216,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -251,7 +240,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -276,7 +264,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -301,7 +288,6 @@
 				stroke-dashoffset: 1000;
 			}
 			100% {
-				stroke: #FFFFFF;
 				stroke-dashoffset: 0;
 			}
 		}
@@ -346,29 +332,29 @@
 
 <g>
 	<circle id="lingkaran" cx="150" cy="150" r="143.346"/>
-	<polygon id="leher" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="137.493,155.331 162.507,155.331 
+	<polygon id="leher" fill="none" stroke="#E91E63" stroke-width="3" stroke-miterlimit="10" points="137.493,155.331 162.507,155.331 
 		167.657,177.402 132.343,177.402 	"/>
 	
-		<line id="alas" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="114.539" y1="178.218" x2="185.461" y2="178.218"/>
+		<line id="alas" fill="none" stroke="#673AB7" stroke-width="3" stroke-miterlimit="10" x1="114.539" y1="178.218" x2="185.461" y2="178.218"/>
 	<g>
-		<path id="layar" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M216.949,144.376
+		<path id="layar" fill="none" stroke="#673AB7" stroke-width="3" stroke-miterlimit="10" d="M216.949,144.376
 			c0,5.851-4.743,10.594-10.594,10.594H93.645c-5.851,0-10.594-4.743-10.594-10.594V61.094c0-5.851,4.744-10.594,10.594-10.594
 			h112.71c5.851,0,10.594,4.744,10.594,10.594V144.376z"/>
 		
-			<line id="pembatas_screen" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="83.051" y1="135.841" x2="216.949" y2="135.841"/>
+			<line id="pembatas_screen" fill="none" stroke="#E91E63" stroke-width="3" stroke-miterlimit="10" x1="83.051" y1="135.841" x2="216.949" y2="135.841"/>
 		
-			<ellipse id="tombol_screen3" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="205.813" cy="58.74" rx="2.502" ry="2.354"/>
+			<ellipse id="tombol_screen3" stroke="#E91E63" stroke-width="3" stroke-miterlimit="10" cx="205.813" cy="58.74" rx="2.502" ry="2.354"/>
 		
-			<ellipse id="tombol_screen2" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="194.483" cy="58.74" rx="2.501" ry="2.354"/>
+			<ellipse id="tombol_screen2" stroke="#E91E63" stroke-width="3" stroke-miterlimit="10" cx="194.483" cy="58.74" rx="2.501" ry="2.354"/>
 		
-			<ellipse id="tombol_screen1" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="183.007" cy="58.74" rx="2.501" ry="2.354"/>
-		<path id="tang" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M173.528,129.313c0,0,5.326,1.761,5.887-6.621
+			<ellipse id="tombol_screen1" stroke="#E91E63" stroke-width="3" stroke-miterlimit="10" cx="183.007" cy="58.74" rx="2.501" ry="2.354"/>
+		<path id="tang" fill="none" stroke="#673AB7" stroke-width="3" stroke-miterlimit="10" d="M173.528,129.313c0,0,5.326,1.761,5.887-6.621
 			l-30.182-32.681c0,0,4.531-6.171-3.354-16.064c-7.124-8.941-18.719-5.168-18.719-5.168l10.814,10.184l0.222,7.558l-7.924-0.712
 			l-10.795-9.765c0,0-5.728,9.08,3.631,17.322c9.36,8.242,16.345,4.051,16.345,4.051L173.528,129.313z"/>
-		<ellipse id="lingkaran_tang" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="173.396" cy="123.174" rx="2.23" ry="2.19"/>
-		<polygon id="pegangan_obeng" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="155.712,90.614 161.163,96.648 
+		<ellipse id="lingkaran_tang" fill="none" stroke="#E91E63" stroke-miterlimit="10" cx="173.396" cy="123.174" rx="2.23" ry="2.19"/>
+		<polygon id="pegangan_obeng" fill="none" stroke="#E91E63" stroke-width="3" stroke-miterlimit="10" points="155.712,90.614 161.163,96.648 
 			164.167,96.648 166.392,96.648 185.789,76.061 176.216,66.378 157.275,83.938 156.278,87.757 		"/>
-		<polygon id="ujung_obeng" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="141.768,106.759 145.889,110.644 
+		<polygon id="ujung_obeng" fill="none" stroke="#E91E63" stroke-width="3" stroke-miterlimit="10" points="141.768,106.759 145.889,110.644 
 			138.814,116.955 138.953,118.966 126.33,127.151 132.988,114.414 136.109,114.414 		"/>
 	</g>
 	<text id="text" transform="matrix(1 0 0 1 65.6445 227.041)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Service</text>
