@@ -6,7 +6,41 @@
 
 <defs>
 	<style>
-		@-webkit-keyframes dash {
+		#lingkaran {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: lingkaran 5s ease-in-out;
+			stroke: url(#MyGradient);
+		}
+
+		@-webkit-keyframes lingkaran {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			90% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#koper {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: koper 5s ease-out;
+		}
+
+		@-webkit-keyframes koper {
 			from {
 				stroke-dashoffset: 1000;
 			}
@@ -15,89 +49,105 @@
 			}
 		}
 
-		#lingkaran {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			stroke: url(#MyGradient);
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#handle {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#koper {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
 		#line_kiri {
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: line_kiri 10s ease-out;
+			stroke: #03A9F4;
+		}
+
+		@-webkit-keyframes line_kiri {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			15% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#line_kanan {
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: line_kanan 10s ease-out;
+			stroke: #03A9F4;
+		}
+
+		@-webkit-keyframes line_kanan {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			20% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#handle {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: handle 15s ease-out;
+		}
+
+		@-webkit-keyframes handle {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			17% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#text {
-		stroke-dasharray: 1000;
+			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
+			stroke-width: 1;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: text 8s ease-out;
+		}
+
+		@-webkit-keyframes text {
+			0% {
+				opacity: 0;
+				fill: none;
+				stroke-dashoffset: 1000;
+			}
+			52% {
+				opacity: 1;
+				fill: none;
+				stroke-dashoffset: 1000;
+			}
+			70% {
+				fill: #FFFFFF;
+			}
+			100% {
+				stroke: #FFFFFF;
+				stroke-dashoffset: 0;
+			}
 		}
 
 	</style>
@@ -113,16 +163,16 @@
 	<circle id="lingkaran" cx="150" cy="150" r="143.345"/>
 	<g>
 		<g>
-			<path id="handle" stroke="#FFFFFF" d="M139.028,55.983c-2.75,0-5,2.25-5,5v10.445c0,2.75,0.719,5,1.597,5s1.597-2.25,1.597-5v-7.583
+			<path id="handle" stroke="#03A9F4" stroke-width="2" d="M139.028,55.983c-2.75,0-5,2.25-5,5v10.445c0,2.75,0.719,5,1.597,5s1.597-2.25,1.597-5v-7.583
 				c0-2.75,2.25-5,5-5h15.556c2.75,0,5,2.25,5,5v7.583c0,2.75,0.719,5,1.597,5c0.879,0,1.598-2.25,1.598-5V60.983c0-2.75-2.25-5-5-5
 				H139.028z"/>
 		</g>
 		<g>
-			<path id="koper" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M213.892,153c0,4.95-4.05,9-9,9H95.108
+			<path id="koper" fill="none" stroke="#3F51B5" stroke-width="3" stroke-miterlimit="10" d="M213.892,153c0,4.95-4.05,9-9,9H95.108
 				c-4.95,0-9-4.05-9-9V84.107c0-4.95,4.05-9,9-9h109.783c4.95,0,9,4.05,9,9V153z"/>
 		</g>
-		<line id="line_kiri" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="111.665" y1="75.107" x2="111.665" y2="162"/>
-		<line id="line_kanan" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="188.335" y1="75.107" x2="188.335" y2="162"/>
+		<line id="line_kiri" fill="none" stroke="#03A9F4" stroke-width="3" stroke-miterlimit="10" x1="111.665" y1="75.107" x2="111.665" y2="162"/>
+		<line id="line_kanan" fill="none" stroke="#03A9F4" stroke-width="3" stroke-miterlimit="10" x1="188.335" y1="75.107" x2="188.335" y2="162"/>
 	</g>
 	<text id="text" transform="matrix(1 0 0 1 101.7969 227.041)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Work</text>
 </g>

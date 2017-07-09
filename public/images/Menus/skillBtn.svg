@@ -6,7 +6,42 @@
 
 <defs>
 	<style>
-		@-webkit-keyframes dash {
+		#lingkaran {
+		stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 2;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: lingkaran 5s ease-in-out;
+			stroke: url(#MyGradient);
+		}
+
+		@-webkit-keyframes lingkaran {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			90% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#lebih_kecil {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 3;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: lebih_kecil 7s ease-out;
+		}
+
+		@-webkit-keyframes lebih_kecil {
 			from {
 				stroke-dashoffset: 1000;
 			}
@@ -15,257 +50,366 @@
 			}
 		}
 
-		#lingkaran {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			stroke: url(#MyGradient);
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#text {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#lebih_kecil {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
 		#lebih_besar {
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
+			stroke-width: 3;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: lebih_besar 7s ease-out;
+		}
+
+		@-webkit-keyframes lebih_besar {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			4% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#dot1 {
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 2;
+			stroke: none;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: dot1 15s ease-out;
+			stroke: #FF5722;
+		}
+
+		@-webkit-keyframes dot1 {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			3% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#dot2 {
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 2;
+			stroke: none;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: dot2 15s ease-out;
+			stroke: #FF5722;
 		}
 
-		#dot2 {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+		@-webkit-keyframes dot2 {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			5% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#dot3 {
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 2;
+			stroke: none;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: dot3 15s ease-out;
+			stroke: #FF5722;
 		}
 
-		#leher1 {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#leher2 {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+		@-webkit-keyframes dot3 {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			7% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#leher3 {
-		stroke-dasharray: 1000;
+			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: leher3 10s ease-out;
+		}
+
+		@-webkit-keyframes leher3 {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			15% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#leher2 {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: leher2 10s ease-out;
+		}
+
+		@-webkit-keyframes leher2 {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			18% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#leher1 {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: leher1 10s ease-out;
+		}
+
+		@-webkit-keyframes leher1 {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			21% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#bohlam {
-		stroke-dasharray: 1000;
+			stroke-dasharray: 800;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: bohlam 3s ease-out;
 		}
 
-		#cahaya_tengah_kiri {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#cahaya_tengah_kanan {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#cahaya_atas_kiri {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
-		}
-
-		#cahaya_atas_kanan {
-		stroke-dasharray: 1000;
-			stroke-dashoffset: 0;
-			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+		@-webkit-keyframes bohlam {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			75% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#cahaya_bawah_kiri {
-		stroke-dasharray: 1000;
+			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: cahaya_bawah_kiri 10s ease-out;
+		}
+
+		@-webkit-keyframes cahaya_bawah_kiri {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			26% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#cahaya_tengah_kiri {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: cahaya_tengah_kiri 10s ease-out;
+		}
+
+		@-webkit-keyframes cahaya_tengah_kiri {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			29% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#cahaya_atas_kiri {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: cahaya_atas_kiri 10s ease-out;
+		}
+
+		@-webkit-keyframes cahaya_atas_kiri {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			32% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#cahaya_atas_kanan {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: cahaya_atas_kanan 10s ease-out;
+		}
+
+		@-webkit-keyframes cahaya_atas_kanan {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			35% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#cahaya_tengah_kanan {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: cahaya_tengah_kanan 10s ease-out;
+		}
+
+		@-webkit-keyframes cahaya_tengah_kanan {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			38% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
 		}
 
 		#cahaya_bawah_kanan {
-		stroke-dasharray: 1000;
+			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			stroke-width: 2;
 			-webkit-animation: dash 5s ease-in-out forwards;
 			-o-animation: dash 5s ease-in-out forwards;
 			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dash 5s ease-in-out forwards;
-			transition: 200ms;
-			transition-timing-function: ease-in-out;
-			-webkit-transition: 200ms;
-			-webkit-transition-timing-function: ease-in-out;
+			animation: cahaya_bawah_kanan 10s ease-out;
+		}
+
+		@-webkit-keyframes cahaya_bawah_kanan {
+			0% {
+				opacity: 0;
+				stroke-dashoffset: 1000;
+			}
+			41% {
+				opacity: 1;
+				stroke-dashoffset: 1000;
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}
+		}
+
+		#text {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 0;
+			stroke-width: 1;
+			-webkit-animation: dash 5s ease-in-out forwards;
+			-o-animation: dash 5s ease-in-out forwards;
+			-moz-animation: dash 5s ease-in-out forwards;
+			animation: text 8s ease-out;
+		}
+
+		@-webkit-keyframes text {
+			0% {
+				opacity: 0;
+				fill: none;
+				stroke-dashoffset: 1000;
+			}
+			52% {
+				opacity: 1;
+				fill: none;
+				stroke-dashoffset: 1000;
+			}
+			70% {
+				fill: #FFFFFF;
+			}
+			100% {
+				stroke: #FFFFFF;
+				stroke-dashoffset: 0;
+			}
 		}
 
 	</style>
@@ -282,54 +426,53 @@
 	<text id="text" transform="matrix(1 0 0 1 91 226.7402)" fill="#FFFFFF" stroke="#FFFFFF" font-family="'Lucida Console', Monaco, monospace" font-size="40">Skill</text>
 	<g>
 		<g>
-			<polyline id="lebih_kecil" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="135.296,88.458 122.279,103.265 
+			<polyline id="lebih_kecil" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-miterlimit="10" points="135.296,88.458 122.279,103.265 
 				131.824,121.099 			"/>
-			<polyline id="lebih_besar" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="165.234,88.35 178.253,103.401 
+			<polyline id="lebih_besar" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-miterlimit="10" points="165.234,88.35 178.253,103.401 
 				168.707,121.531 			"/>
-			<circle id="dot1" stroke="#FFFFFF" stroke-miterlimit="10" cx="155.446" cy="91.64" r="2.852"/>
-			<circle id="dot2" stroke="#FFFFFF" stroke-miterlimit="10" cx="149.993" cy="105.124" r="2.852"/>
-			<circle id="dot3" stroke="#FFFFFF" stroke-miterlimit="10" cx="144.135" cy="118.358" r="2.852"/>
+			<circle id="dot1" stroke-width="2" stroke-miterlimit="10" cx="155.446" cy="91.64" r="2.852"/>
+			<circle id="dot2" stroke-width="2" stroke-miterlimit="10" cx="149.993" cy="105.124" r="2.852"/>
+			<circle id="dot3" stroke-width="2" stroke-miterlimit="10" cx="144.135" cy="118.358" r="2.852"/>
 		</g>
 		<g>
 			
-				<line id="leher1" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="133.292" y1="159.219" x2="166.707" y2="159.219"/>
+				<line id="leher1" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-miterlimit="10" x1="133.292" y1="159.219" x2="166.707" y2="159.219"/>
 			
-				<line id="leher2" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="139.733" y1="166.645" x2="160.267" y2="166.645"/>
+				<line id="leher2" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-miterlimit="10" x1="139.733" y1="166.645" x2="160.267" y2="166.645"/>
 			
-				<line id="leher3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="144.362" y1="174.071" x2="155.637" y2="174.071"/>
+				<line id="leher3" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-miterlimit="10" x1="144.362" y1="174.071" x2="155.637" y2="174.071"/>
 		</g>
-		<path id="bohlam" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M150,55.177
+		<path id="bohlam" fill="none" stroke="#FF5722" stroke-width="3" stroke-miterlimit="10" d="M150,55.177
 			c-24.607,0-44.556,19.948-44.556,44.556c0,5.203,0.901,10.191,2.54,14.833c0.257,0.915,0.54,1.782,0.838,2.588
-			c3.434,9.284,21.297,34.719,21.297,34.719H150h19.881c0,0,17.863-25.435,21.295-34.719c0.3-0.806,0.582-1.673,0.839-2.588
-			c1.639-4.642,2.54-9.631,2.54-14.833C194.555,75.125,174.606,55.177,150,55.177z"/>
+			c3.434,9.284,21.297,34.719,21.297,34.719H150h19.881c0,0,17.863-25.435,21.295-34.719c0.3-0.806,0.582-1.673,0.839-2.58			c1.639-4.642,2.54-9.631,2.54-14.833C194.555,75.125,174.606,55.177,150,55.177z"/>
 		<g>
 			<g>
 				<g>
-					<path id="cahaya_tengah_kiri" stroke="#FFFFFF" d="M94.659,102.241c2.2,0,4,1.247,4,2.77c0,1.523-1.8,2.77-4,2.77h-8.132c-2.2,0-4-1.247-4-2.77
+					<path id="cahaya_tengah_kiri" stroke="#FFEB3B" stroke-width="2" d="M94.659,102.241c2.2,0,4,1.247,4,2.77c0,1.523-1.8,2.77-4,2.77h-8.132c-2.2,0-4-1.247-4-2.77
 						c0-1.523,1.8-2.77,4-2.77H94.659z"/>
 				</g>
 				<g>
-					<path id="cahaya_tengah_kanan" stroke="#FFFFFF" d="M213.473,102.241c2.2,0,4,1.247,4,2.77c0,1.523-1.8,2.77-4,2.77h-8.133c-2.2,0-4-1.247-4-2.77
+					<path id="cahaya_tengah_kanan" stroke="#FFEB3B" stroke-width="2" d="M213.473,102.241c2.2,0,4,1.247,4,2.77c0,1.523-1.8,2.77-4,2.77h-8.133c-2.2,0-4-1.247-4-2.77
 						c0-1.523,1.8-2.77,4-2.77H213.473z"/>
 				</g>
 			</g>
 			<g>
 				<g>
-					<path id="cahaya_atas_kiri" stroke="#FFFFFF" d="M111.764,58.81c1.555,1.556,1.947,3.709,0.87,4.787c-1.077,1.077-3.231,0.685-4.787-0.871l-5.75-5.75
+					<path id="cahaya_atas_kiri" stroke="#FFEB3B" stroke-width="2" d="M111.764,58.81c1.555,1.556,1.947,3.709,0.87,4.787c-1.077,1.077-3.231,0.685-4.787-0.871l-5.75-5.75
 						c-1.556-1.556-1.948-3.71-0.871-4.787s3.231-0.685,4.786,0.871L111.764,58.81z"/>
 				</g>
 				<g>
-					<path id="cahaya_atas_kanan" stroke="#FFFFFF" d="M188.236,58.81c-1.556,1.556-1.947,3.709-0.871,4.787c1.077,1.077,3.23,0.685,4.786-0.87l5.752-5.751
+					<path id="cahaya_atas_kanan" stroke="#FFEB3B" stroke-width="2" d="M188.236,58.81c-1.556,1.556-1.947,3.709-0.871,4.787c1.077,1.077,3.23,0.685,4.786-0.87l5.752-5.751
 						c1.556-1.555,1.947-3.709,0.87-4.786c-1.078-1.077-3.231-0.685-4.787,0.871L188.236,58.81z"/>
 				</g>
 			</g>
 			<g>
 				<g>
-					<path id="cahaya_bawah_kiri" stroke="#FFFFFF" d="M113.248,145.343c1.555-1.556,1.947-3.709,0.871-4.786s-3.23-0.685-4.786,0.87l-5.75,5.751
+					<path id="cahaya_bawah_kiri" stroke="#FFEB3B" stroke-width="2" d="M113.248,145.343c1.555-1.556,1.947-3.709,0.871-4.786s-3.23-0.685-4.786,0.87l-5.75,5.751
 						c-1.556,1.556-1.948,3.709-0.871,4.786s3.231,0.686,4.786-0.87L113.248,145.343z"/>
 				</g>
 				<g>
-					<path id="cahaya_bawah_kanan" stroke="#FFFFFF" d="M186.751,145.343c-1.556-1.557-1.947-3.71-0.87-4.787c1.076-1.077,3.229-0.685,4.785,0.871l5.752,5.75
+					<path id="cahaya_bawah_kanan" stroke="#FFEB3B" stroke-width="2" d="M186.751,145.343c-1.556-1.557-1.947-3.71-0.87-4.787c1.076-1.077,3.229-0.685,4.785,0.871l5.752,5.75
 						c1.556,1.556,1.947,3.709,0.869,4.786c-1.077,1.078-3.23,0.687-4.786-0.87L186.751,145.343z"/>
 				</g>
 			</g>
