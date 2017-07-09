@@ -140,30 +140,6 @@ body {
 		text-transform: uppercase;
 	}
 
-	#w {
-		border-radius: 100%;
-		background-color: #FC354C;
-		width: 50px;
-		height: 50px;
-		line-height: 50px;
-	}
-
-	#e {
-		border-radius: 100%;
-		background-color: #B27B85;
-		width: 50px;
-		height: 50px;
-		line-height: 50px;
-	}
-
-	#b {
-		border-radius: 100%;
-		background-color: #0ABFBC;
-		width: 50px;
-		height: 50px;
-		line-height: 50px;
-	}
-
 	#row3 {
 		margin-top: 50px;
 		text-align: center;
@@ -176,21 +152,41 @@ body {
 	#serviceBtn {
 		width: 200px;
 		height: 200px;
+		transition: 0.3s ease-out;
+	}
+
+	#serviceBtn:hover {
+		transform: rotate(10deg);
 	}
 
 	#skillBtn {
 		width: 200px;
 		height: 200px;
+		transition: 0.3s ease-out;
+	}
+
+	#skillBtn:hover {
+		transform: rotate(10deg);
 	}
 
 	#workBtn {
 		width: 200px;
 		height: 200px;
+		transition: 0.3s ease-out;
+	}
+
+	#workBtn:hover {
+		transform: rotate(10deg);
 	}
 
 	#contactBtn {
 		width: 200px;
 		height: 200px;
+		transition: 0.3s ease-out;
+	}
+
+	#contactBtn:hover {
+		transform: rotate(10deg);
 	}
 
 }

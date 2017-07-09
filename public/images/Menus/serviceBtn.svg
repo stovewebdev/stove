@@ -7,7 +7,7 @@
 <defs>
 	<style>
 		#lingkaran {
-		stroke-dasharray: 1000;
+			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 2;
 			-webkit-animation: dash 5s ease-in-out forwards;
