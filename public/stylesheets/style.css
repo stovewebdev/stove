@@ -1,4 +1,4 @@
-/* === Start Froce Landscape ===*/
+/* === Start froce landscape ===*/
 #warningMessage { display: none; }
     @media only screen and (orientation:portrait){
         #wrapper { display:none; }
@@ -7,7 +7,7 @@
     @media only screen and (orientation:landscape){
         #warningMessage { display:none; }
     }
-/* === End Froce Landscape ===*/
+/* === End force landscape ===*/
 
 html {
 	padding: 0;
