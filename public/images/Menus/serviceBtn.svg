@@ -6,6 +6,18 @@
 
 <defs>
 	<style>
+		#service {
+			transition: 3s ease-out;
+		}
+
+		#service:hover #leher, #service:hover #alas, #service:hover #layar, #service:hover #pembatas_screen, #service:hover #tombol_screen1, #service:hover #tombol_screen2, #service:hover #tombol_screen3, #service:hover #tang, #service:hover #lingkaran_tang, #service:hover #ujung_obeng, #service:hover #pegangan_obeng  {
+			stroke: #FFFFFF;
+		}
+
+		#service:hover {
+			fill: url(#MyGradient);
+		}
+
 		#lingkaran {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;

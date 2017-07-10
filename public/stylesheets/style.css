@@ -154,41 +154,41 @@ body {
 		height: 200px;
 		transition: 0.3s ease-out;
 	}
-
+/*
 	#serviceBtn:hover {
 		transform: rotate(10deg);
 	}
-
+*/
 	#skillBtn {
 		width: 200px;
 		height: 200px;
 		transition: 0.3s ease-out;
 	}
-
+/*
 	#skillBtn:hover {
 		transform: rotate(10deg);
 	}
-
+*/
 	#workBtn {
 		width: 200px;
 		height: 200px;
 		transition: 0.3s ease-out;
 	}
-
+/*
 	#workBtn:hover {
 		transform: rotate(10deg);
 	}
-
+*/
 	#contactBtn {
 		width: 200px;
 		height: 200px;
 		transition: 0.3s ease-out;
 	}
-
+/*
 	#contactBtn:hover {
 		transform: rotate(10deg);
 	}
-
+*/
 }
 /* === End desktop === */
 
