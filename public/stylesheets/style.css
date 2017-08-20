@@ -1,10 +1,19 @@
-/* === Start froce landscape ===*/
+/* === Start force landscape ===*/
 #warningMessage { display: none; }
+
     @media only screen and (orientation:portrait){
+        #serviceBtn { display:none !important; }
+        #skillBtn { display:none !important; }
+        #workBtn { display:none !important; }
+        #contactBtn { display:none !important; }
         #wrapper { display:none; }
         #warningMessage { display:block; }
     }
     @media only screen and (orientation:landscape){
+        #serviceBtn { display:inline-block !important; }
+        #skillBtn { display:inline-block !important; }
+        #workBtn { display:inline-block !important; }
+        #contactBtn { display:inline-block !important; }
         #warningMessage { display:none; }
     }
 /* === End force landscape ===*/
@@ -22,7 +31,7 @@ body {
 }
 
 #center {
-	text-align: center;	
+	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -35,6 +44,10 @@ body {
 .frame {
 	width: 100vw;
 	height: 100vh;
+}
+
+.backBtn:hover, .iconMenu:hover {
+  cursor:pointer;
 }
 
 /* ==== Start background === */
@@ -54,7 +67,7 @@ body {
 	left: 0;
 	background-color: #000000;
 	position: absolute;
-	opacity: .8;
+	opacity: .85;
 }
 /* ==== End background === */
 
@@ -81,120 +94,212 @@ body {
 #wrapper {
 	position: absolute;
 	z-index: 1;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
 }
 
-.container {
+#mainPage {
+	text-align: center;
+	height: 100vh;
 	width: 100vw;
-	padding: 10px;
+	display: table-cell;
+	vertical-align: middle;
 }
 
-#bigTitle {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+#transition1Page, #transition2Page {
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100vh;
 }
 /* ==== End main page === */
 
 
+/* ==== Start contextual pages === */
+#servicePage, #skillPage, #workPage, #contactPage {
+	visibility: hidden;
+	background-color: #000000;
+	position: absolute;
+	z-index: 2;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100vh;
+}
+
+.backBtn {
+  color: #ffffff;
+  font-family: 'poiret one';
+}
+/* ==== End contextual pages === */
+
+
 /* === Start phone === */
 @media only screen and (max-width: 768px) {
-    
+    #logo {
+		width: 307.2px;
+		height: 117.6px;
+	}
+
+	.row {
+		margin: 15px;
+	}
+
+	#nav div object {
+		margin: 7.5px;
+		width: 100px;
+		height: 100px;
+		transition: 0.3s ease-out;
+	}
+
+	#bungkusMenu {
+		margin: 7.5px;
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+	}
+
+	#bungkusMenu div {
+		background-color: white;
+		opacity: 0;
+		width: 100px;
+		height: 100px;
+		margin: -110px 0 0 7.5px;
+		position: relative;
+		border-radius: 100%;
+		z-index: 2;
+	}
+
 }
 /* === End phone === */
 
 
 /* === Start tablet === */
 @media only screen and (min-width: 768px) {
-    
+    #logo {
+		width: 460.8px;
+		height: 176.4px;
+	}
+
+	.row {
+		margin: 22.5px;
+	}
+
+	#nav div object {
+		margin: 11.25px;
+		width: 150px;
+		height: 150px;
+		transition: 0.3s ease-out;
+	}
+
+	#bungkusMenu {
+		margin: 11.25px;
+		width: 150px;
+		height: 150px;
+		display: inline-block;
+	}
+
+	#bungkusMenu div {
+		background-color: white;
+		opacity: 0;
+		width: 150px;
+		height: 150px;
+		margin: -165px 0 0 10px;
+		position: relative;
+		border-radius: 100%;
+		z-index: 2;
+	}
 }
 /* === End tablet === */
 
 
 /* === Start desktop === */
-@media only screen and (min-width: 992px) {
-    #row {
-		width: 100%;
-		height: 9vh;
-	}
-
+@media only screen and (min-width: 1280px) {
 	#logo {
-		position: relative;
-		float: right;
-		width: 12vw;
-		height: 9vh;
+		width: 614.4px;
+		height: 235.2px;
 	}
 
-    #mainPage {
-		margin-top: 90px;
-		margin-bottom: 90px;
+	.row {
+		margin: 30px;
 	}
 
-	#row2 {
-		text-align: center;
-		color: #ffffff;
-		margin: auto;
-	}
-
-	#row2 h1 {
-		display: inline-block;
-		font-size: 50px;
-		font-weight: bold;
-		text-transform: uppercase;
-	}
-
-	#row3 {
-		margin-top: 50px;
-		text-align: center;
-	}
-
-	#row3 embed {
+	#nav div object {
 		margin: 15px;
+		width: 200px;
+		height: 200px;
+		transition: 0.3s ease-out;
 	}
 
-	#serviceBtn {
+	#bungkusMenu {
+		margin: 15px;
 		width: 200px;
 		height: 200px;
-		transition: 0.3s ease-out;
+		display: inline-block;
 	}
-/*
-	#serviceBtn:hover {
-		transform: rotate(10deg);
-	}
-*/
-	#skillBtn {
+
+	#bungkusMenu div {
+		background-color: white;
+		opacity: 0;
 		width: 200px;
 		height: 200px;
-		transition: 0.3s ease-out;
+		margin: -215px 0 0 15px;
+		position: relative;
+		border-radius: 100%;
+		z-index: 2;
 	}
-/*
-	#skillBtn:hover {
-		transform: rotate(10deg);
-	}
-*/
-	#workBtn {
-		width: 200px;
-		height: 200px;
-		transition: 0.3s ease-out;
-	}
-/*
-	#workBtn:hover {
-		transform: rotate(10deg);
-	}
-*/
-	#contactBtn {
-		width: 200px;
-		height: 200px;
-		transition: 0.3s ease-out;
-	}
-/*
-	#contactBtn:hover {
-		transform: rotate(10deg);
-	}
-*/
-}
+
+  .bungkusBack {
+    margin: -375px 0 0 15px;
+    position: relative;
+  }
+
+  .backBtn {
+    display: none;
+    width: 100px;
+    height: 100px;
+  }
 /* === End desktop === */
 
 
 /* === Start large desktop === */
-@media only screen and (min-width: 1200px) {
-    
+@media only screen and (min-width: 1600px) {
+	#logo {
+		width: 768px;
+		height: 294px;
+	}
+
+	.row {
+		margin: 37.5px;
+	}
+
+	#nav div object {
+		margin: 18.75px;
+		width: 250px;
+		height: 250px;
+		transition: 0.3s ease-out;
+	}
+
+	#bungkusMenu {
+		margin: 18.75px;
+		width: 250px;
+		height: 250px;
+		display: inline-block;
+	}
+
+	#bungkusMenu div {
+		background-color: white;
+		opacity: 0;
+		width: 250px;
+		height: 250px;
+		margin: -270px 0 0 18.5px;
+		position: relative;
+		border-radius: 100%;
+		z-index: 2;
+	}
+
+
 }
 /* === End large desktop === */

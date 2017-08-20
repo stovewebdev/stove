@@ -10,20 +10,47 @@ block content
       i.fa.fa-refresh.fa-5x.fa-spin#rotate
       h2 Please turn your device
 
-  #wrapper 
-    .container
-      #row
-        img(src='/images/Logo/logo2.svg')#logo
+  #wrapper
     .container#mainPage
-      #row2
-        h1#bigTitle we are freelance web developer
-      #row3
-        object
-          embed(src='/images/Menus/serviceBtn.svg')#serviceBtn
-        object
-          embed(src='/images/Menus/skillBtn.svg')#skillBtn
-        object
-          embed(src='/images/Menus/workBtn.svg')#workBtn
-        object
-          embed(src='/images/Menus/contactBtn.svg')#contactBtn        
+      .row
+        img(src='/images/Logo/logoWhite.png')#logo
+      .row#nav
+        #bungkusMenu
+          object(data='/images/Menus/serviceBtn.svg', type='image/svg+xml')#serviceBtn
+            Your browser doesn't support SVG
+          #overlayService.iconMenu
+        #bungkusMenu
+          object(data='/images/Menus/skillBtn.svg', type='image/svg+xml')#skillBtn
+            Your browser doesn't support SVG
+          #overlaySkill.iconMenu
+        #bungkusMenu
+          object(data='/images/Menus/workBtn.svg', type='image/svg+xml')#workBtn
+            Your browser doesn't support SVG
+          #overlayWork.iconMenu
+        #bungkusMenu
+          object(data='/images/Menus/contactBtn.svg', type='image/svg+xml')#contactBtn
+            Your browser doesn't support SVG
+          #overlayContact.iconMenu   
           
+  #servicePage
+    .container#mainPage
+      .row.bungkusBack
+        h1.backBtn < back
+
+  #skillPage
+    .container#mainPage
+      .row.bungkusBack
+        h1.backBtn < back
+
+  #workPage
+    .container#mainPage
+      .row.bungkusBack
+        h1.backBtn < back
+
+  #contactPage
+    .container#mainPage
+      .row.bungkusBack
+        h1.backBtn < back
+
+  #transition1Page
+  #transition2Page

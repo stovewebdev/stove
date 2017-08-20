@@ -6,14 +6,37 @@
 
 <defs>
 	<style>
+		#skill {
+			transition: 3s ease-out;
+		}
+
+		#skill:hover #lebih_kecil, #skill:hover #lebih_besar, #skill:hover #dot1, #skill:hover #dot2, #skill:hover #dot3, #skill:hover #leher1, #skill:hover #leher2, #skill:hover #leher3, #skill:hover #bohlam, #skill:hover #cahaya_tengah_kiri, #skill:hover #cahaya_tengah_kanan, #skill:hover #cahaya_atas_kiri, #skill:hover #cahaya_atas_kanan, #skill:hover #cahaya_bawah_kiri, #skill:hover #cahaya_bawah_kanan  {
+			animation: floating 2s ease-in-out infinite;
+		}
+
+		@-webkit-keyframes floating {
+			0% {
+				transform: translateY(0px);
+				opacity: 1;
+			}
+			50% {
+				transform: translateY(5px);
+				opacity: 0.5;
+			}
+			100% {
+				transform: translateY(0px);
+				opacity: 1;
+			}
+		}
+
 		#lingkaran {
-		stroke-dasharray: 1000;
+			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 2;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: lingkaran 5s ease-in-out;
+			-webkit-animation: lingkaran 1.25s ease-in-out;
+			-o-animation: lingkaran 1.25s ease-in-out;
+			-moz-animation: lingkaran 1.25s ease-in-out;
+			animation: lingkaran 1.25s ease-in-out;
 			stroke: url(#MyGradient);
 		}
 
@@ -35,10 +58,10 @@
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 3;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: lebih_kecil 7s ease-out;
+			-webkit-animation: lebih_kecil 1.75s ease-out;
+			-o-animation: lebih_kecil 1.75s ease-out;
+			-moz-animation: lebih_kecil 1.75s ease-out;
+			animation: lebih_kecil 1.75s ease-out;
 		}
 
 		@-webkit-keyframes lebih_kecil {
@@ -54,10 +77,10 @@
 		stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 3;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: lebih_besar 7s ease-out;
+			-webkit-animation: lebih_besar 1.75s ease-out;
+			-o-animation: lebih_besar 1.75s ease-out;
+			-moz-animation: lebih_besar 1.75s ease-out;
+			animation: lebih_besar 1.75s ease-out;
 		}
 
 		@-webkit-keyframes lebih_besar {
@@ -79,10 +102,10 @@
 			stroke-dashoffset: 0;
 			stroke-width: 2;
 			stroke: none;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dot1 15s ease-out;
+			-webkit-animation: dot1 3.75s ease-out;
+			-o-animation: dot1 3.75s ease-out;
+			-moz-animation: dot1 3.75s ease-out;
+			animation: dot1 3.75s ease-out;
 			stroke: #FF5722;
 		}
 
@@ -105,10 +128,10 @@
 			stroke-dashoffset: 0;
 			stroke-width: 2;
 			stroke: none;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dot2 15s ease-out;
+			-webkit-animation: dot2 3.75s ease-out;
+			-o-animation: dot2 3.75s ease-out;
+			-moz-animation: dot2 3.75s ease-out;
+			animation: dot2 3.75s ease-out;
 			stroke: #FF5722;
 		}
 
@@ -131,10 +154,10 @@
 			stroke-dashoffset: 0;
 			stroke-width: 2;
 			stroke: none;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: dot3 15s ease-out;
+			-webkit-animation: dot3 3.75s ease-out;
+			-o-animation: dot3 3.75s ease-out;
+			-moz-animation: dot3 3.75s ease-out;
+			animation: dot3 3.75s ease-out;
 			stroke: #FF5722;
 		}
 
@@ -155,10 +178,10 @@
 		#leher3 {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: leher3 10s ease-out;
+			-webkit-animation: leher3 2.5s ease-out;
+			-o-animation: leher3 2.5s ease-out;
+			-moz-animation: leher3 2.5s ease-out;
+			animation: leher3 2.5s ease-out;
 		}
 
 		@-webkit-keyframes leher3 {
@@ -178,10 +201,10 @@
 		#leher2 {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: leher2 10s ease-out;
+			-webkit-animation: leher2 2.5s ease-out;
+			-o-animation: leher2 2.5s ease-out;
+			-moz-animation: leher2 2.5s ease-out;
+			animation: leher2 2.5s ease-out;
 		}
 
 		@-webkit-keyframes leher2 {
@@ -201,10 +224,10 @@
 		#leher1 {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: leher1 10s ease-out;
+			-webkit-animation: leher1 2.5s ease-out;
+			-o-animation: leher1 2.5s ease-out;
+			-moz-animation: leher1 2.5s ease-out;
+			animation: leher1 2.5s ease-out;
 		}
 
 		@-webkit-keyframes leher1 {
@@ -224,10 +247,10 @@
 		#bohlam {
 			stroke-dasharray: 800;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: bohlam 3s ease-out;
+			-webkit-animation: bohlam 0.75s ease-out;
+			-o-animation: bohlam 0.75s ease-out;
+			-moz-animation: bohlam 0.75s ease-out;
+			animation: bohlam 0.75s ease-out;
 		}
 
 		@-webkit-keyframes bohlam {
@@ -247,10 +270,10 @@
 		#cahaya_bawah_kiri {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: cahaya_bawah_kiri 10s ease-out;
+			-webkit-animation: cahaya_bawah_kiri 2.5s ease-out;
+			-o-animation: cahaya_bawah_kiri 2.5s ease-out;
+			-moz-animation: cahaya_bawah_kiri 2.5s ease-out;
+			animation: cahaya_bawah_kiri 2.5s ease-out;
 		}
 
 		@-webkit-keyframes cahaya_bawah_kiri {
@@ -270,10 +293,10 @@
 		#cahaya_tengah_kiri {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: cahaya_tengah_kiri 10s ease-out;
+			-webkit-animation: cahaya_tengah_kiri 2.5s ease-out;
+			-o-animation: cahaya_tengah_kiri 2.5s ease-out;
+			-moz-animation: cahaya_tengah_kiri 2.5s ease-out;
+			animation: cahaya_tengah_kiri 2.5s ease-out;
 		}
 
 		@-webkit-keyframes cahaya_tengah_kiri {
@@ -293,10 +316,10 @@
 		#cahaya_atas_kiri {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: cahaya_atas_kiri 10s ease-out;
+			-webkit-animation: cahaya_atas_kiri 2.5s ease-out;
+			-o-animation: cahaya_atas_kiri 2.5s ease-out;
+			-moz-animation: cahaya_atas_kiri 2.5s ease-out;
+			animation: cahaya_atas_kiri 2.5s ease-out;
 		}
 
 		@-webkit-keyframes cahaya_atas_kiri {
@@ -316,10 +339,10 @@
 		#cahaya_atas_kanan {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: cahaya_atas_kanan 10s ease-out;
+			-webkit-animation: cahaya_atas_kanan 2.5s ease-out;
+			-o-animation: cahaya_atas_kanan 2.5s ease-out;
+			-moz-animation: cahaya_atas_kanan 2.5s ease-out;
+			animation: cahaya_atas_kanan 2.5s ease-out;
 		}
 
 		@-webkit-keyframes cahaya_atas_kanan {
@@ -339,10 +362,10 @@
 		#cahaya_tengah_kanan {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: cahaya_tengah_kanan 10s ease-out;
+			-webkit-animation: cahaya_tengah_kanan 2.5s ease-out;
+			-o-animation: cahaya_tengah_kanan 2.5s ease-out;
+			-moz-animation: cahaya_tengah_kanan 2.5s ease-out;
+			animation: cahaya_tengah_kanan 2.5s ease-out;
 		}
 
 		@-webkit-keyframes cahaya_tengah_kanan {
@@ -362,10 +385,10 @@
 		#cahaya_bawah_kanan {
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: cahaya_bawah_kanan 10s ease-out;
+			-webkit-animation: cahaya_bawah_kanan 2.5s ease-out;
+			-o-animation: cahaya_bawah_kanan 2.5s ease-out;
+			-moz-animation: cahaya_bawah_kanan 2.5s ease-out;
+			animation: cahaya_bawah_kanan 2.5s ease-out;
 		}
 
 		@-webkit-keyframes cahaya_bawah_kanan {
@@ -386,10 +409,10 @@
 			stroke-dasharray: 1000;
 			stroke-dashoffset: 0;
 			stroke-width: 1;
-			-webkit-animation: dash 5s ease-in-out forwards;
-			-o-animation: dash 5s ease-in-out forwards;
-			-moz-animation: dash 5s ease-in-out forwards;
-			animation: text 8s ease-out;
+			-webkit-animation: text 2s ease-out;
+			-o-animation: text 2s ease-out;
+			-moz-animation: text 2s ease-out;
+			animation: text 2s ease-out;
 		}
 
 		@-webkit-keyframes text {
