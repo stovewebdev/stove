@@ -138,39 +138,7 @@ body {
 
 /* === Start phone === */
 @media only screen and (max-width: 768px) {
-    #logo {
-		width: 307.2px;
-		height: 117.6px;
-	}
-
-	.row {
-		margin: 15px;
-	}
-
-	#nav div object {
-		margin: 7.5px;
-		width: 100px;
-		height: 100px;
-		transition: 0.3s ease-out;
-	}
-
-	#bungkusMenu {
-		margin: 7.5px;
-		width: 100px;
-		height: 100px;
-		display: inline-block;
-	}
-
-	#bungkusMenu div {
-		background-color: white;
-		opacity: 0;
-		width: 100px;
-		height: 100px;
-		margin: -110px 0 0 7.5px;
-		position: relative;
-		border-radius: 100%;
-		z-index: 2;
-	}
+    
 
 }
 /* === End phone === */
@@ -178,127 +146,20 @@ body {
 
 /* === Start tablet === */
 @media only screen and (min-width: 768px) {
-    #logo {
-		width: 460.8px;
-		height: 176.4px;
-	}
-
-	.row {
-		margin: 22.5px;
-	}
-
-	#nav div object {
-		margin: 11.25px;
-		width: 150px;
-		height: 150px;
-		transition: 0.3s ease-out;
-	}
-
-	#bungkusMenu {
-		margin: 11.25px;
-		width: 150px;
-		height: 150px;
-		display: inline-block;
-	}
-
-	#bungkusMenu div {
-		background-color: white;
-		opacity: 0;
-		width: 150px;
-		height: 150px;
-		margin: -165px 0 0 10px;
-		position: relative;
-		border-radius: 100%;
-		z-index: 2;
-	}
+    
 }
 /* === End tablet === */
 
 
 /* === Start desktop === */
 @media only screen and (min-width: 1280px) {
-	#logo {
-		width: 614.4px;
-		height: 235.2px;
-	}
-
-	.row {
-		margin: 30px;
-	}
-
-	#nav div object {
-		margin: 15px;
-		width: 200px;
-		height: 200px;
-		transition: 0.3s ease-out;
-	}
-
-	#bungkusMenu {
-		margin: 15px;
-		width: 200px;
-		height: 200px;
-		display: inline-block;
-	}
-
-	#bungkusMenu div {
-		background-color: white;
-		opacity: 0;
-		width: 200px;
-		height: 200px;
-		margin: -215px 0 0 15px;
-		position: relative;
-		border-radius: 100%;
-		z-index: 2;
-	}
-
-  .bungkusBack {
-    margin: -375px 0 0 15px;
-    position: relative;
-  }
-
-  .backBtn {
-    display: none;
-    width: 100px;
-    height: 100px;
-  }
+	
 /* === End desktop === */
 
 
 /* === Start large desktop === */
 @media only screen and (min-width: 1600px) {
-	#logo {
-		width: 768px;
-		height: 294px;
-	}
-
-	.row {
-		margin: 37.5px;
-	}
-
-	#nav div object {
-		margin: 18.75px;
-		width: 250px;
-		height: 250px;
-		transition: 0.3s ease-out;
-	}
-
-	#bungkusMenu {
-		margin: 18.75px;
-		width: 250px;
-		height: 250px;
-		display: inline-block;
-	}
-
-	#bungkusMenu div {
-		background-color: white;
-		opacity: 0;
-		width: 250px;
-		height: 250px;
-		margin: -270px 0 0 18.5px;
-		position: relative;
-		border-radius: 100%;
-		z-index: 2;
-	}
+	
 
 
 }
