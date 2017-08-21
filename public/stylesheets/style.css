@@ -57,7 +57,7 @@ body {
 }
 
 #backgroundWelcome {
-	background: url('../images/Wallpaper/Welcome Page2.jpg') no-repeat center;
+	background-color: #FFFFFF;
 	background-size: cover;
 	padding: 10px;
 }
@@ -65,9 +65,8 @@ body {
 #filter {
 	top: 0;
 	left: 0;
-	background-color: #000000;
+	background: url('../images/Masking/Main_masking.png') no-repeat center;
 	position: absolute;
-	opacity: .85;
 }
 /* ==== End background === */
 
