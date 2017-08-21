@@ -1,49 +1,4 @@
-/* === Start GSAP animation ===
-$('#serviceBtn').on('click', function($) {*/
-/*$(document).ready(function(){
-    $("#serviceBtn").click(function(){
-        alert("The paragraph was clicked.");
-    });
-});
-
-	// animate onload
-	var transition = new TweenMax();
-	transition
-		.from($('#wrapper'), 0.6, {
-			x: 300,
-			opacity: 0,
-			ease: Power2.easeIn
-		});
-
-};
-
- === End GSAP animation ===
-var b = document.getElementById("logo");
-
-b.onclick=function() {
-	// Get the Object by ID
-	var a = document.getElementById("serviceBtn");
-	// Get the SVG document inside the Object tag
-	var svgDoc = a.contentDocument;
-	// Get one of the SVG items by ID;
-	var svgItem = svgDoc.getElementById("lingkaran");
-	// Set the colour to something else
-	svgItem.setAttribute("fill", "lime");
-};
-$(function() {
-	var overlayService = document.getElementById("overlayService");
-
-	overlayService.onclick=function() {
-	    //get svg object, like a jquery object
-	    var svg = $("#serviceBtn").getSVG();
-	    //use jquery functions to do some thing
-	    svg.find("g path:first-child()").attr('fill', "#FFFFFF");
-
-	};
-
-});
-*/
-
+// === Start GSAP animation ===
 $('#overlayService').on('click', function() {
 	var Transition = new TimelineMax();
 
@@ -299,3 +254,4 @@ $('#contactPage').find('.backBtn').on('click', function() {
 		$('#wrapper').css('display','inline-block');
 
 });
+// === End GSAP animation ===
