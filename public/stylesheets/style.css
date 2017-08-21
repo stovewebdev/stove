@@ -53,19 +53,30 @@ body {
 /* ==== Start background === */
 #background {
 	position: absolute;
-	z-index: -1;
+	z-index: -1;  
+}
+
+#backgroundWelcome:hover ~ #filter {
+	background: red; /* For browsers that do not support gradients */    
 }
 
 #backgroundWelcome {
-	background-color: #FFFFFF;
+	background: url('../images/Masking/Main_masking2.png') no-repeat center;
 	background-size: cover;
 	padding: 10px;
+	position: absolute;
+	z-index: 1;
 }
 
 #filter {
 	top: 0;
 	left: 0;
-	background: url('../images/Masking/Main_masking.png') no-repeat center;
+	z-index: : 0;
+	background: #FFFFFF;
+    -webkit-transition: background 1s ease;  
+    -moz-transition: background 1s ease;  
+    -o-transition: background 1s ease;  
+    transition: background 1s ease;  
 	position: absolute;
 }
 /* ==== End background === */
@@ -96,6 +107,7 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
+	display: none;
 }
 
 #mainPage {
